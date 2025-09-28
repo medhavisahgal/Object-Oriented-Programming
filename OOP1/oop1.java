@@ -48,4 +48,11 @@ class Student {
         marks = m;
     }
 
+    // Copy constructor
+    Student(Student s) {
+        this.rollno = s.rollno;
+        this.name = s.name;
+        this.marks = s.marks;
+    }
+
 }
