@@ -24,7 +24,8 @@ public class StaticDemo2 {
         Emp e1 = new Emp(25, "Alice");
         Emp e2 = new Emp(30, "Bob");
         Emp e3 = new Emp(35, "Charlie");
-        // Static method can be used to access static variable
+        // Static method can be used to access static variable (main use of static
+        // method)
         Emp.ShowCompany();
         e1.display();
         e2.display();
