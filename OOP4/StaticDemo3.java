@@ -18,6 +18,10 @@ class Data {
     public static void Show() {
         System.out.println("show called...");
     }
+
+    public void Display() {
+        System.out.println("Display called...");
+    }
 }
 
 public class StaticDemo3 {
@@ -26,6 +30,9 @@ public class StaticDemo3 {
         Data d1 = new Data();
         Data d2 = new Data();
         Data d3 = new Data();
+        d1.Display();
+        d2.Display();
+        d3.Display();
     }
 }
 // Static block is invoked only once when the class is loaded or we 1st create
