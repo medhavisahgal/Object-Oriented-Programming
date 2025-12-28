@@ -5,6 +5,7 @@ import java.util.*;
 public class third {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.print("Enter your password: ");
         String str = sc.nextLine();
         try {
             // Write the password in password.txt file;
@@ -35,7 +36,6 @@ public class third {
             System.out.println("An error occurred.");
             e.printStackTrace();
         }
-
+        sc.close();
     }
-
 }
