@@ -54,6 +54,13 @@ public class array {
         // Contains method
         System.out.print("Enter an element to check if it is present in the dynamic array: ");
         int check = sc.nextInt();
+        // Sort the ArrayList
+        Collections.sort(list);
+        System.out.println("Sorted dynamic array: ");
+        for (int x : list) {
+            System.out.print(x + " ");
+        }
+        System.out.println();
         System.out.println("Is " + check + " present in the dynamic array? " + list.contains(check));
         // Clear the ArrayList
         list.clear();
