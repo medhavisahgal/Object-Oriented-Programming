@@ -3,7 +3,7 @@ import java.util.HashSet;
 class ContainsDuplicate {
     public boolean containsDuplicate(int[] nums) {
         // Brute force
-        int n = nums.length;
+        // int n = nums.length;
         // for(int i=0;i<n;i++){
         // int x=nums[i];
         // for(int j=i+1;j<n;j++){
